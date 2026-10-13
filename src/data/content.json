@@ -8,19 +8,19 @@
   "profile": {
     "name": "Badhon",
     "initials": "B",
-    "email": "badhon@example.com",
-    "phone": "+880 1700-000000",
+    "email": "badhonsoren@gmail.com",
+    "phone": "+880 1773-280842",
     "location": "Dhaka, Bangladesh",
-    "website": "https://www.linkedin.com/in/badhon",
+    "website": "",
     "websiteLabel": "linkedin.com/in/badhon",
     "photo": "/profile1.jpg",
     "resume": "/resume.pdf"
   },
 
   "socials": {
-    "linkedin": "https://www.linkedin.com/in/badhon",
-    "facebook": "https://www.facebook.com/badhon",
-    "whatsapp": "https://wa.me/8801700000000"
+    "linkedin": "https://www.facebook.com/profile.php?id=61594454943960",
+    "facebook": "https://www.instagram.com/maybe_im_badhon/",
+    "whatsapp": "https://wa.me/8801773280842"
   },
 
   "nav": [
@@ -42,7 +42,7 @@
       {
         "icon": "GraduationCap",
         "title": "B.Sc Honours",
-        "sub": "Zoology · 2017-18"
+        "sub": "Zoology Graduate"
       },
       { "icon": "MapPin", "title": "Based in", "sub": "Dhaka, Bangladesh" }
     ],
@@ -175,7 +175,7 @@
       {
         "icon": "GraduationCap",
         "title": "Bachelor of Science (B.Sc) in Zoology",
-        "meta": "Session 2017-18 · Honours Final Examinations Completed (Result Awaited)",
+        "meta": " Honours Final Examinations Completed (Result Awaited)",
         "details": "Focused on Biological Sciences, Ecology, Animal Physiology, Environmental Studies and Laboratory Methodology. Developed strong observational and investigative research capabilities."
       },
       {
@@ -197,7 +197,7 @@
       {
         "icon": "GraduationCap",
         "title": "Academic Foundation",
-        "text": "Graduated with an Honours degree in Zoology (2017-18 session). Equipped with strong analytical skills, attention to detail, and a structured scientific approach to problem-solving."
+        "text": "Graduated with an Honours degree in Zoology. Equipped with strong analytical skills, attention to detail, and a structured scientific approach to problem-solving."
       },
       {
         "icon": "TrendingUp",
