@@ -1,0 +1,141 @@
+@import 'tailwindcss';
+
+/* ───────────── Design tokens ───────────── */
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Anton', 'Impact', sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+
+  --color-ink: #15181c;          /* page background */
+  --color-ink-2: #1d2126;        /* card background */
+  --color-glow: #2a2e33;         /* radial glow */
+  --color-muted: #9aa0a6;        /* body text */
+  --color-silver: #c9cdd1;       /* icons / accents */
+  --color-line: rgb(255 255 255 / 0.08);
+
+  /* Accent colour — change these two to re-tint the whole site */
+  --color-accent: #2dd4bf;       /* teal */
+  --color-accent-2: #5eead4;     /* lighter teal */
+}
+
+/* ───────────── Base ───────────── */
+html {
+  background: var(--color-ink);
+  color-scheme: dark;
+  -webkit-tap-highlight-color: transparent;
+}
+html, body { overflow-x: clip; }
+
+/* Native smooth scrolling (lighter than a JS scroll library) */
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-ink);
+  color: var(--color-muted);
+  font-size: 15px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+@media (min-width: 768px) { body { font-size: 16px; } }
+
+::selection { background: var(--color-accent); color: #15181c; }
+
+/* Visible, consistent focus ring for keyboard users */
+:focus-visible {
+  outline: 1.5px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* ───────────── Utilities ───────────── */
+
+/* Small uppercase label */
+@utility label {
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  @media (min-width: 768px) { font-size: 12px; }
+}
+
+/* Vertical metallic silver text */
+@utility text-chrome {
+  background-image: linear-gradient(180deg, #ffffff 0%, #e4e6e8 30%, #bfc3c7 55%, #7d8389 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Accent-tinted metallic text (used on the second headline line) */
+@utility text-accent-chrome {
+  background-image: linear-gradient(180deg, #ccfbf1 0%, #5eead4 45%, #0f766e 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Outlined display text (hero name, line 2) */
+@utility text-outline {
+  color: rgb(45 212 191 / 0.06);
+  -webkit-text-stroke: 1.5px #5eead4;
+  paint-order: stroke fill;
+}
+
+/* Glass card */
+@utility card {
+  position: relative;
+  background: linear-gradient(180deg, rgb(255 255 255 / 0.045), rgb(255 255 255 / 0.02)), #1b1f24;
+  border: 1px solid rgb(255 255 255 / 0.08);
+  border-radius: 16px;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.06), 0 20px 50px -30px rgb(0 0 0 / 0.8);
+}
+
+/* Brushed-silver button / surface */
+@utility silver {
+  color: #15181c;
+  background:
+    repeating-linear-gradient(90deg, rgb(255 255 255 / 0.05) 0 1px, transparent 1px 3px),
+    linear-gradient(135deg, #f4f5f6 0%, #c3c7cb 38%, #eef0f1 55%, #9ea4aa 100%);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.8), inset 0 -1px 0 rgb(0 0 0 / 0.25), 0 8px 24px -10px rgb(255 255 255 / 0.25);
+}
+
+/* Shine sweep on hover — add to a `relative overflow-hidden` element */
+@utility shine {
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: translateX(-120%) skewX(-20deg);
+    background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.75), transparent);
+    transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    pointer-events: none;
+  }
+  &:hover::before { transform: translateX(120%) skewX(-20deg); }
+}
+
+/* Dotted connector used on the hobbies strip */
+@utility dots {
+  background-image: radial-gradient(circle, rgb(45 212 191 / 0.7) 1px, transparent 1.4px);
+  background-size: 7px 7px;
+  background-position: center;
+}
+
+/* Simple one-time fade-in (hero). Delay via inline animation-delay. */
+.fade-in { animation: fade-in 0.6s ease-out both; }
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Respect reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

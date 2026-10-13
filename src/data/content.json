@@ -1,0 +1,255 @@
+{
+  "site": {
+    "title": "Badhon — Zoology Graduate | Portfolio",
+    "description": "Honours graduate in Zoology with a structured, scientific approach to problem-solving — seeking entry-level roles in administration, customer care and public service in Dhaka.",
+    "url": "https://example.com"
+  },
+
+  "profile": {
+    "name": "Badhon",
+    "initials": "B",
+    "email": "badhon@example.com",
+    "phone": "+880 1700-000000",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.linkedin.com/in/badhon",
+    "websiteLabel": "linkedin.com/in/badhon",
+    "photo": "/profile1.jpg",
+    "resume": "/resume.pdf"
+  },
+
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/badhon",
+    "facebook": "https://www.facebook.com/badhon",
+    "whatsapp": "https://wa.me/8801700000000"
+  },
+
+  "nav": [
+    { "label": "About", "id": "about" },
+    { "label": "Skills", "id": "skills" },
+    { "label": "Education", "id": "education" },
+    { "label": "Career", "id": "career" },
+    { "label": "Contact", "id": "contact" }
+  ],
+  "navCta": "Let's Talk",
+
+  "hero": {
+    "eyebrow": "Analytical • Disciplined • Ready to Grow",
+    "headline": ["Badhon", "Soren"],
+    "intro": "An Honours graduate in Zoology with a structured, scientific approach to problem-solving — now building strong communication and office skills for a professional career in Dhaka.",
+    "primaryCta": "View My Journey",
+    "secondaryCta": "Download Resume",
+    "imageBadges": [
+      {
+        "icon": "GraduationCap",
+        "title": "B.Sc Honours",
+        "sub": "Zoology · 2017-18"
+      },
+      { "icon": "MapPin", "title": "Based in", "sub": "Dhaka, Bangladesh" }
+    ],
+    "status": "Open to work",
+    "availability": {
+      "top": "Available for",
+      "main": "Entry-Level",
+      "bottom": "Roles"
+    }
+  },
+
+  "stats": [
+    { "icon": "GraduationCap", "value": "B.Sc", "label": "Honours in Zoology" },
+    { "icon": "BookOpen", "value": "3", "label": "Academic Qualifications" },
+    { "icon": "Sparkles", "value": "8+", "label": "Professional Skills" },
+    { "icon": "Target", "value": "3", "label": "Career Paths" }
+  ],
+
+  "careerGoals": {
+    "title": "Career Goals",
+    "link": "My Career Direction",
+    "cards": [
+      {
+        "title": "Administrative Support",
+        "subtitle": "Office Management · Documentation",
+        "visual": "ring"
+      },
+      {
+        "title": "Customer Care & Operations",
+        "subtitle": "Client Service · Daily Operations",
+        "visual": "sphere"
+      },
+      {
+        "title": "Government & Public Roles",
+        "subtitle": "Public Sector · Service to Community",
+        "visual": "orbits"
+      }
+    ],
+    "quote": {
+      "label": "Professional Target & Philosophy",
+      "text": "My objective is to secure a meaningful entry-level professional position in Dhaka where I can apply my analytical academic background, discipline, and rapidly growing communication skills. I am fully committed to long-term professional independence and continuous self-improvement."
+    }
+  },
+
+  "coreSkills": {
+    "title": "Core Skills",
+    "items": [
+      {
+        "icon": "Lightbulb",
+        "title": "Problem Solving",
+        "text": "Breaking complex problems into clear steps using a structured, scientific way of thinking."
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Communication",
+        "text": "Clear, polite and confident communication with colleagues and customers."
+      },
+      {
+        "icon": "Hammer",
+        "title": "Hard Worker",
+        "text": "Dedicated, consistent and committed to finishing every task properly."
+      },
+      {
+        "icon": "PenLine",
+        "title": "Written Skills",
+        "text": "Writing clear reports, records and professional documents."
+      },
+      {
+        "icon": "Users",
+        "title": "Leadership",
+        "text": "Taking responsibility, guiding others and keeping a team focused."
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "Adaptability & Resilience",
+        "text": "Adapting quickly to fast-paced teams, shifting priorities and independent tasks."
+      }
+    ]
+  },
+
+  "professionalSkills": {
+    "title": "Professional Skills",
+    "items": [
+      {
+        "icon": "Mic",
+        "label": "Spoken English",
+        "tip": "Enrolled in intensive spoken English training for clear workplace articulation."
+      },
+      {
+        "icon": "FlaskConical",
+        "label": "Analytical Science",
+        "tip": "Scientific mindset, data record keeping, structured reporting and critical thinking."
+      },
+      {
+        "icon": "FileText",
+        "label": "MS Word",
+        "tip": "Formatting letters, reports and official documents."
+      },
+      {
+        "icon": "Sheet",
+        "label": "MS Excel",
+        "tip": "Organising data in sheets with basic formulas and tables."
+      },
+      {
+        "icon": "Keyboard",
+        "label": "Data Entry",
+        "tip": "Fast, accurate typing and careful data input."
+      },
+      {
+        "icon": "Globe",
+        "label": "Web Browsing",
+        "tip": "Finding reliable information online quickly."
+      },
+      {
+        "icon": "Send",
+        "label": "Online Applications",
+        "tip": "Completing online forms, job portals and e-services."
+      },
+      {
+        "icon": "ClipboardList",
+        "label": "Record Keeping",
+        "tip": "Maintaining tidy, organised and up-to-date records."
+      }
+    ]
+  },
+
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "icon": "GraduationCap",
+        "title": "Bachelor of Science (B.Sc) in Zoology",
+        "meta": "Session 2017-18 · Honours Final Examinations Completed (Result Awaited)",
+        "details": "Focused on Biological Sciences, Ecology, Animal Physiology, Environmental Studies and Laboratory Methodology. Developed strong observational and investigative research capabilities."
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Higher Secondary Certificate (HSC)",
+        "meta": "Science Stream · Solid groundwork in Physics, Chemistry and Biology."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Secondary School Certificate (SSC)",
+        "meta": "Science Stream · Fundamental science education with distinction in core disciplines."
+      }
+    ]
+  },
+
+  "about": {
+    "title": "About Me",
+    "cards": [
+      {
+        "icon": "GraduationCap",
+        "title": "Academic Foundation",
+        "text": "Graduated with an Honours degree in Zoology (2017-18 session). Equipped with strong analytical skills, attention to detail, and a structured scientific approach to problem-solving."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Skill Development",
+        "text": "Currently based in Dhaka, actively improving professional skills — focusing on Spoken English fluency, effective workplace communication, and fundamental office computing tools."
+      },
+      {
+        "icon": "Compass",
+        "title": "Career Outlook",
+        "text": "Seeking dynamic entry-level employment, public sector jobs, or corporate support roles where dedication, fast learning and consistency add value."
+      }
+    ]
+  },
+
+  "hobbies": {
+    "title": "My Hobbies",
+    "items": [
+      {
+        "icon": "ChefHat",
+        "title": "Cooking",
+        "text": "Trying new recipes and cooking for family."
+      },
+      {
+        "icon": "Car",
+        "title": "Driving",
+        "text": "Enjoying the road and exploring new places."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Reading",
+        "text": "Reading books to learn and grow every day."
+      },
+      {
+        "icon": "Trophy",
+        "title": "Football",
+        "text": "Playing football for fitness and teamwork."
+      },
+      {
+        "icon": "Music",
+        "title": "Singing",
+        "text": "Singing to relax and express myself."
+      }
+    ]
+  },
+
+  "contact": {
+    "headline": ["Let's Build", "Something", "Great Together"],
+    "text": "I'm currently available for entry-level roles in administration, customer care and public service.",
+    "cta": "Let's Work Together"
+  },
+
+  "footer": {
+    "connect": "Let's Connect"
+  }
+}

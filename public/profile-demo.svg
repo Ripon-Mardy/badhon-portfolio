@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <!-- Demo portrait illustration. Replace with your own photo (see src/data/content.json → profile.photo) -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2a2c"/>
+      <stop offset="1" stop-color="#121518"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.32" r="0.55">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9a37b"/>
+      <stop offset="1" stop-color="#b47a55"/>
+    </linearGradient>
+    <linearGradient id="neck" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9c6646"/>
+      <stop offset="1" stop-color="#b98058"/>
+    </linearGradient>
+    <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a424b"/>
+      <stop offset="1" stop-color="#1c2126"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2622"/>
+      <stop offset="1" stop-color="#121110"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#light)"/>
+
+  <!-- decorative rings -->
+  <circle cx="400" cy="470" r="250" fill="none" stroke="#5eead4" stroke-opacity="0.18" stroke-width="2"/>
+  <circle cx="400" cy="470" r="310" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2" stroke-dasharray="4 10"/>
+
+  <!-- neck -->
+  <path d="M345 600 L455 600 L462 770 L338 770 Z" fill="url(#neck)"/>
+
+  <!-- body / jacket -->
+  <path d="M90 1000 C100 860 190 780 330 752 L470 752 C610 780 700 860 710 1000 Z" fill="url(#jacket)"/>
+  <!-- shirt -->
+  <path d="M330 752 L400 880 L470 752 L455 748 L400 800 L345 748 Z" fill="#e9edf0"/>
+  <!-- collar -->
+  <path d="M345 748 L400 800 L372 840 L322 760 Z" fill="#ffffff"/>
+  <path d="M455 748 L400 800 L428 840 L478 760 Z" fill="#f3f5f7"/>
+  <!-- lapels -->
+  <path d="M322 760 L372 840 L400 1000 L300 1000 L290 800 Z" fill="#2b3138"/>
+  <path d="M478 760 L428 840 L400 1000 L500 1000 L510 800 Z" fill="#262b31"/>
+
+  <!-- ears -->
+  <ellipse cx="272" cy="485" rx="22" ry="38" fill="#c18660"/>
+  <ellipse cx="528" cy="485" rx="22" ry="38" fill="#b47a55"/>
+
+  <!-- head -->
+  <ellipse cx="400" cy="470" rx="128" ry="158" fill="url(#skin)"/>
+  <!-- jaw shadow -->
+  <path d="M290 540 C310 610 360 628 400 628 C440 628 490 610 510 540 C495 590 450 612 400 612 C350 612 305 590 290 540 Z" fill="#000" fill-opacity="0.08"/>
+
+  <!-- hair -->
+  <path d="M268 450 C252 330 320 290 404 292 C492 294 552 340 532 450 C522 400 492 372 452 366 C420 380 360 386 318 376 C292 392 276 418 268 450 Z" fill="url(#hair)"/>
+
+  <!-- subtle facial features -->
+  <path d="M345 470 q18 -10 36 0" stroke="#3a2a20" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M419 470 q18 -10 36 0" stroke="#3a2a20" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M370 562 q30 18 60 0" stroke="#7a4a35" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>
